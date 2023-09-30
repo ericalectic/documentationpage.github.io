@@ -3,8 +3,8 @@
 
 * {margin: 0; padding: 0; border: 0; outline: none;}
 body {
-	background-color: #23272a;
-	color: #eeeeee;
+	background-color: #eeeeee;
+	color: #23272a;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -13,10 +13,15 @@ body {
 	color: #23272a;
 }
 
-#navbar {
-	width: 100vw;
-	max-height: 45vh;
+img{
+	width: 10rem;
 	text-align: center;
+}
+
+#navbar {
+	width: 80vw;
+	max-height: 45vh;
+	text-align: left;
 	background-color: rgba(255, 255, 255, 0.3);
 	border-top: 4px solid rgba(255, 255, 255, 0.5);
 	border-right: 4px solid rgba(255, 255, 255, 0.5);
@@ -24,16 +29,22 @@ body {
 }
 	#navbar header {
 		padding: 15px 0;
+		text-align: center;
 		font-size: 27px;
-		border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+		color: white;
+		background-color: #23272a;
+		font-weight: bold;
 	}
 	#navbar a {
 		padding: 15px 0;
 		display: block;
 		text-decoration: none;
+		padding-left: 15px;
+	
 		font-size: 20px;
-		color: #eeeeee;
-		border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+		text-align: left;
+		color: white;
+		background-color: #23272a;
 	}
 
 #main-doc {
@@ -50,12 +61,13 @@ body {
 			margin-bottom: 20px;
 			font-size: 29px;
 			letter-spacing: 1px;
+			font-weight: bold;
 		}
 			.main-section code {
 				margin-right: 25px;
 				white-space: pre;
 				text-align: left;
-				background-color: #7289da;
+				background-color: #F0DB4F;
 				font-family: "Lucida Console", Monaco, Menlo, Consolas;
 				border-radius: 5px;
 				display: block;
@@ -98,3 +110,4 @@ body {
 			padding-right: 10px;
 		}
 }
+
